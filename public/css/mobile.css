@@ -105,13 +105,6 @@ main {
     text-align: center;
 }
 
-.main-exchange__title {
-    width: 90%;
-    min-height: 13rem;
-    max-width: 90rem;
-    margin: 0 auto;
-}
-
 .main-exchange__img {
     width: 19.5rem;
     height: 19.5rem;
@@ -122,8 +115,14 @@ main {
     background-repeat: no-repeat;
 }
 
+.main-exchange__title {
+    width: 90%;
+    min-height: 13rem;
+    max-width: 90rem;
+    margin: 4rem auto 4.8rem;
+}
+
 .main-exchange__title h2 {
-    margin-top: 4rem;
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.6rem;
@@ -142,11 +141,12 @@ main {
     min-width: 24rem;
     max-width: 50rem;
     height: 24rem;
-    margin: 4.8rem auto 0;
+    margin: 0 auto 6.4rem;
     font-family: 'Inter', sans-serif;
 }
 
 .currecy__table-container, .commissions__table-container {
+    position: relative;
     width: 80%;
     min-width: 19.2rem;
     max-width: 30rem;
@@ -225,13 +225,13 @@ main {
 .currecy__date {
     width: 17.5rem;
     height: 3rem;
-    margin: 1.5rem auto 0;
+    margin: 1.5rem auto 6.4rem;
     padding: 0.8rem;
     background-color: var(--soft-orange);
     border-radius: 0.8rem;
 }
 
-.currecy__date p{
+.currecy__date p, .commissions__date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--warm-black);
@@ -252,8 +252,110 @@ main {
 .commissions__date {
     width: 17.5rem;
     height: 3rem;
-    margin: 1.5rem auto 0;
+    margin: 1.5rem auto 6.4rem;
     padding: 0.8rem;
     background-color: var(--soft-blue);
     border-radius: 0.8rem;
 }
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 6.4rem 1.6rem 3rem;
+    background-color: var(--warm-black);
+}
+
+.main-product-detail__logo {
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    background-image: url("../images/batata.svg");
+    top: -1.25rem;
+    left: calc(50% - 2rem);
+}
+
+.main-product-detail__info {
+    position: relative;
+    margin-bottom: 3.2rem;
+    width: 100%;
+    min-width: 28.8rem;
+    height: auto;
+    text-align: center;
+}
+
+.main-product-detail__info h2 {
+    margin-bottom: 2.4rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main-product-detail__info p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.main-product-detail__card {
+    position: relative;
+    width: 100%;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    height: auto;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem 2rem 2.2rem 1.6rem;
+    background-color: var(--black);
+    border-radius: 0.4rem;
+    box-shadow: 0px 0.4rem 0.8rem rgba(0, 0, 0, 0.16);
+}
+
+.main-product-detail__card-icon {
+    display: inline-block;
+    margin-bottom: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-product-detail__card-icon--clock {
+    background-image: url('../icons/clock.svg');
+}
+
+.main-product-detail__card-icon--eye {
+    background-image: url('../icons/eye.svg');
+}
+
+.main-product-detail__card-icon--dollar {
+    background-image: url('../icons/dollar-sign.svg');
+}
+
+.main-product-detail__card-icon--check {
+    background-image: url('../icons/check-circle.svg');
+}
+
+.main-product-detail__card-title {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.main-product-detail__card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+
+
+
+
+
