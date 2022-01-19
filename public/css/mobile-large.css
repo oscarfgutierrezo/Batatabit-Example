@@ -1,0 +1,11 @@
+.main-exchange__tables-container {
+    justify-content: space-evenly;
+    gap: 0rem;
+    width: 90%;
+    padding: 0;
+    margin: 0 auto 6.3rem;
+}
+
+.currecy__right-arrow {
+    display: none;
+}

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="public/css/mobile.css">
+    <link rel="stylesheet" href="public/css/mobile-large.css" media="(min-width: 435px)">
+    <link rel="stylesheet" href="public/css/tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="public/css/laptop.css" media="(min-width: 1024px)">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -50,6 +53,7 @@
                     <div class="currecy__date">
                         <p><b>Actualizado:</b> 19 Julio 23:45</p>
                     </div>
+                    <span class="currecy__right-arrow"></span>
                 </div>
                 <div class="commissions">
                     <div class="commissions__table-container">
@@ -148,16 +152,18 @@
         </section>
     </main>
     <footer class="footer">
-        <section class="footer__left-content">
-            <ul>
-                <li><a href="#">Linkedin</a></li>
-                <li><a href="#">Crunchbase</a></li>
-                <li><a href="#">Hackernews</a></li>
-            </ul>
-        </section>
-        <section class="footer__rigth-content">
-            <img src="./public/images/logo-footer.svg" alt="Logo de Batatabit 2020">
-        </section>
+        <div class="footer__container">
+            <section class="footer__left-content">
+                <ul>
+                    <li><a href="#">Linkedin</a></li>
+                    <li><a href="#">Crunchbase</a></li>
+                    <li><a href="#">Hackernews</a></li>
+                </ul>
+            </section>
+            <section class="footer__rigth-content">
+                <img src="./public/images/logo-footer.svg" alt="Logo de Batatabit 2020">
+            </section>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,15 @@
+.main-plans__cards-container {
+    display: flex;
+    gap: 0rem;
+    width: 90%;
+    max-width: 80rem;
+    height: 29rem; 
+    margin: 0 auto;
+    padding: 0;   
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-plans__left-arrow, .main-plans__right-arrow {
+    display: none;
+}
